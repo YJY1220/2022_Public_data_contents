@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<apiDataList>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>용지역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7611</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>공단역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7431</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>팔달역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7431</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>매천시장역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7431</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>매천역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7431</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>태전역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7431</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>구암역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7381</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>칠곡운암역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7381</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>동천역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7381</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>팔거역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7381</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>학정역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7381</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>칠곡경대병원역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-640-7381</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>영남대역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 쉼터 내</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>054-801-3785</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>임당역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 쉼터 내</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>054-811-0732</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>정평역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>054-811-4753</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>사월역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-795-0767</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>신매역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-791-0898</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>만평역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7431</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>팔달시장역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7521</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>범물역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7611</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>지산역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7611</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>수성못역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7611</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>황금역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7611</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>어린이회관역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7611</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>수성구민운동장역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7581</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>수성시장역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7581</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>대봉교역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7581</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>건들바위역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7581</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>명덕3역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7581</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>남산역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7581</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>청라언덕3역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7521</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>서문시장역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7521</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>달성공원역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7521</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>북구청역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7521</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>원대역</HP_STN_NM>
+<HP_LINE_CD>3</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053- 640-7521</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>경대병원역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-427-0523</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>대구은행역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-752-0206</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>범어역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하3층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>전기실 출입구</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-756-9376</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>수성구청역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-756-7822</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>만촌역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-751-0287</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>담티역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하3층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-752-0959</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>연호역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-791-0922</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>대공원역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-791-0881</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>고산역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-791-0858</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>반월당2역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하3층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>각 역무실 맞은편</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>2</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-252-0689</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>청라언덕2역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-256-7728</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>반고개역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-655-1196</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>교대역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>2발매기 옆</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-473-7702</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>명덕1역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>역무실 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-255-7723</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>반월당1역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-255-7735</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>중앙로역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>화장실 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-256-7746</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>대구역역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>역무실 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-426-7797</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>칠성시장역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-427-7751</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>신천역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-756-7706</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>동대구역역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>1번출구 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-742-7787</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>동구청역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-942-7721</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>아양교역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하3층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-942-7724</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>동촌역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하3층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-981-7731</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>해안역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>계단 뒤</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-981-7775</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>방촌역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-984-7716</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>용계역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-985-7798</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>율하역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-962-7729</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>신기역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>쉼터 옆</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-962-7773</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>반야월역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-962-7798</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>내당역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-656-6038</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>두류역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 화장실 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-628-3663</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>감삼역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 화장실 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-552-2856</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>죽전역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>E마트 편의점옆</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-556-0292</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>용산역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>E/L 1호기 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-553-3598</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>이곡역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-582-6214</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>성서산단역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>화장실 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-582-6215</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>계명대역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>영남대방면 E/V옆</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-588-0990</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>강창역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실 전시공간</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-585-0660</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>대실역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-587-1933</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>다사역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-588-6680</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>문양역</HP_STN_NM>
+<HP_LINE_CD>2</HP_LINE_CD>
+<HP_STUP_STRY_CD>지상3층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>미술협회사무실 옆 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-584-6826</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>안심역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>역무실 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-963-7769</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>각산역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-963-7754</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>화원역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>E/L 3호기 옆</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-634-5125</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>대곡역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>화장실 앞</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-644-7723</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>진천역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-642-7723</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>월배역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>E/L 1호기 옆</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-642-7732</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>상인역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>화장실 입구</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-642-7745</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>월촌역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-626-7710</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>송현역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하2층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-626-7730</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>서부정류장역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>역무실 옆</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-651-7736</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>대명역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-627-7746</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>안지랑역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>E/L 4호기 옆</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-626-7747</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>현충로역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-651-7756</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>영대병원역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>대합실</HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>1</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-626-7760</HP_STN_TEL_NO>
+</apiData>
+<apiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="lostInfoVO">
+<HP_STN_NM>설화명곡역</HP_STN_NM>
+<HP_LINE_CD>1</HP_LINE_CD>
+<HP_STUP_STRY_CD>지하1층</HP_STUP_STRY_CD>
+<HP_STUP_DTL_LCTN>E/L 3호기 옆 </HP_STUP_DTL_LCTN>
+<HP_ELC_CNV_QTT>1</HP_ELC_CNV_QTT>
+<HP_SYNC_ELC_QTT>2</HP_SYNC_ELC_QTT>
+<HP_STN_TEL_NO>053-634-2674</HP_STN_TEL_NO>
+</apiData>
+</apiDataList>
+</rss>

@@ -33,7 +33,7 @@ if requestData.status_code == 200:
 
         if "(" in stationName:
             print(stationName.find("("))
-            str = str[0:stationName.find("(")]
+            str = stationName[0:stationName.find("(")]
         else:
             str = stationName
 

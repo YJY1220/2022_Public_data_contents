@@ -33,7 +33,13 @@ for item in apiDataList:
 
     if "(" in stationName:
         print(stationName.find("("))
-        str = str[0:stationName.find("(")]
+        str = stationName[0:stationName.find("(")]
+    elif any(temp.isdigit() for temp in stationName):
+        for i in range(len(stationName)):
+            if stationName[i].isdigit():
+                str = stationName[0:i]
+    elif stationName == "성서산단역":
+        str = "성서산업단지역"
     else:
         str = stationName
 

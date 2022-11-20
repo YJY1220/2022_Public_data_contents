@@ -24,18 +24,18 @@ for i in range(len(excel_source)):
     row = excel_source.iloc[i]
     facilityName, subwayLine, stationName, entranceNum, maxMember, maxWeight\
         = row[0], row[1][0], row[2], row[3], row[5], row[6]
-    print(row[5])
+    # print(row[5])
     if pd.isna(maxMember):
         maxMember = -1
     if pd.isna(maxWeight):
         maxWeight = -1
 
     if "(" in stationName:
-        print(stationName.find("("))
-        str = str[0:stationName.find("(")]
+        str = stationName[0:stationName.find("(")]
+        print("("+str)
     else:
         str = stationName
-
+        print(str)
 
     for key in stationXY.keys():
         if str in key:

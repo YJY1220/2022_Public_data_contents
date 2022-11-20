@@ -1,0 +1,223 @@
+body {
+  padding: 12px !important; /* important : 다른 값 무시하고 css에 무조건 적용 */
+  margin: 0px !important; /* 완전 바짝 붙임 */
+  background : #3d3d3d;
+}
+
+#navbar {
+  height: 60px;
+  width: 100%;
+  background: #3d3d3d;
+  color: #ffdd59;
+  font-weight: bolder;
+  font-size: 35px;
+  display: flex;  /* 수직정렬 쉽게 해줌 */
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, sans-serif;
+}
+
+#infoBox {
+  position: absolute;
+  top: 100px;
+  z-index: 10000;
+  background: #3d3d3d;
+  color: #ffdd59;
+  left: 20px;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Do Hyeon', sans-serif;
+  opacity : 0.95;
+}
+
+#infoTitle {
+  font-size: 17px;
+  font-weight: bolder;
+  opacity : 0.9;
+}
+
+#batteryCharger {
+  position: absolute;
+  bottom: 65px;
+  right: 20px;
+  padding: 5px;
+  z-index: 10000;
+  font-size: 14px;
+  opacity: 0.9;
+  /* background: #c23616; */
+  background : #3d3d3d;
+  color: #ffdd59;
+  border-radius: 15px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+#wheelchairLift {
+  position: absolute;
+  bottom: 35px;
+  right: 20px;
+  padding: 5px;
+  z-index: 10000;
+  font-size: 14px;
+  opacity: 0.9;
+  /* background: #487eb0; */
+  background : #3d3d3d;
+  color: #ffdd59;
+  border-radius: 15px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+#bus {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+  padding: 5px;
+  z-index: 10000;
+  font-size: 14px;
+  opacity: 0.9;
+  /* background: #487eb0; */
+  background : #3d3d3d;
+  color: #ffdd59;
+  border-radius: 15px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.infowindow_wrap {
+  background : #3d3d3d;
+  color: #ffdd59;
+  padding : 15px;
+  border : 1px solid rgba(0, 0, 0, 0.2);
+  opacity : 0.9;
+  border-radius: 5px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.infowindow_title {
+  font-size : 15px;
+  font-weight : bolder;
+}
+
+.infowindow_content {
+  font-size : 13px;
+  font-weight : normal;
+}
+
+.infowindow_distance {
+  font-size : 13px;
+  font-weight : normal;
+}
+
+#current {
+   position : absolute;
+   top : 180px;
+   z-index : 10000;
+   background : #3d3d3d;
+   color: #ffdd59;
+   font-family: 'Do Hyeon', sans-serif;
+   left : 20px;
+   padding : 15px;
+   border : 1px solid rgba(0, 0, 0, 0.2);
+   border-radius: 4px;
+   text-align: center;
+   cursor : pointer;
+   font-weight: bolder;
+   opacity : 0.95;
+}
+
+#board {
+  position : absolute;
+  /* bottom : 5px; */
+  bottom : 0px;
+  z-index : 10000;
+  background : #3d3d3d;
+  color: #ffdd59;
+  font-family: 'Do Hyeon', sans-serif;
+  /* left : 20px; */
+  left: 10px;
+  padding : 10px;
+  border : 1px solid rgba(0, 0, 0, 0.2);
+  /* border-radius: 4px; */
+  text-align: center;
+  cursor : pointer;
+  font-weight: bolder;
+  opacity : 0.95;
+}
+
+.pulse {
+  display : block;
+  width : 22px;
+  height : 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgb(255, 0, 0);
+  animation : pulse 1.7s infinite;
+}
+
+#search {
+   position: absolute;
+   top: 100px;
+   right: 20px;
+   padding: 15px;
+   z-index: 10000;
+   background: white;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   border-radius: 4px;
+   text-align: center;
+}
+
+#search_input {
+  border: none;
+
+}
+
+#search_input:focus {
+  outline : none;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(204, 49, 44, 0.4);
+     -moz-box-shadow: 0 0 0 0 rgba(204, 49, 44, 0.4);
+     /* -moz- : 파이어폭스, -webkit- : 크롬 */
+  }
+
+  70% {
+    box-shadow: 0 0 0 20px rgba(204, 49, 44, 0);
+    -moz-box-shadow: 0 0 0 20px rgba(204, 49, 44, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(204, 49, 44, 0);
+    -moz-box-shadow: 0 0 0 0 rgba(204, 49, 44, 0);
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(204, 49, 44, 0.4);
+     -moz-box-shadow: 0 0 0 0 rgba(204, 49, 44, 0.4);
+     /* -moz- : 파이어폭스, -webkit- : 크롬 */
+  }
+
+  70% {
+    box-shadow: 0 0 0 20px rgba(204, 49, 44, 0);
+    -moz-box-shadow: 0 0 0 20px rgba(204, 49, 44, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(204, 49, 44, 0);
+    -moz-box-shadow: 0 0 0 0 rgba(204, 49, 44, 0);
+  }
+}
+
+.marker {
+  border: 2px solid #f5f6fa;
+  background: #00a8ff;
+  opacity : 0.8;
+  width : 22px;
+  height : 22px;
+  border-radius: 50%;
+}
+
+

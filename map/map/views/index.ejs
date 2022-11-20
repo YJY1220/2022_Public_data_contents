@@ -1,0 +1,356 @@
+<!-- 무조건 ctrl+c로 port 중지 -->
+<!-- 시작할 때는 nodemon ./bin/www -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>MAP</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <script 
+        type="text/javascript"
+        src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=srv5o1aoye"
+    ></script>
+    <!-- jquery cdn minified -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=360810c408eabeac8ee9fd4d8f9ec7af&libraries=services"></script>
+</head>
+<body>
+<div id="navbar">WheelChair We'll Care</div>
+<!-- 굳이 필요한가? -->
+<div id="infoBox">
+    <div id="infoTitle">근처 리프트 수</div>
+    <div id="infoContent">03</div>
+</div>
+
+<div id="batteryCharger">급속 충전기</div>
+<div id="wheelchairLift">휠체어 리프트</div> 
+<!-- <div id="bus">저상버스 실시간 정보</div> -->
+<!-- <button id="bus" onclick="replaceLink">저상버스 실시간 정보</button> -->
+
+<div id="search">
+    <input id="search_input" placeholder="목적지를 입력해주세요." />
+    <button id="search_button">검색</button>
+</div>
+<div id="current">현재위치</div>
+<div id="board">자유게시판</div>
+<div id="map" style="width:100%;height:92vh;"></div>
+<script type = "text/javascript" src = "/data/batteryData.js"></script> <!-- 급속 충전기 데이타 -->
+<script type = "text/javascript" src = "/data/liftData.js"></script> <!-- 휠체어 리프트 데이타 -->
+<!-- <script type = "text/javascript" src = "/data/busData.js"></script> 저상버스 데이타 -->
+
+<script>
+
+var mapOptions = {
+    center: new naver.maps.LatLng(35.888836, 128.6102997),
+    zoom: 14
+};
+
+var map = new naver.maps.Map('map', mapOptions);
+
+var markerList = [];    // 급속충전기
+var markerList2 = [];   // 휠체어 리프트
+// var markerList3 = [];   // 저상버스
+var infowindowList = [];
+var infowindowList2 = [];
+// var infowindowList3 = [];
+
+// 급속충전기 배열에 추가된 마커들을 지도에 표시하거나 삭제하는 함수입니다 -- markerList
+function setMarkers(map) {
+    for (var i = 0; i < markerList.length; i++) {
+        markerList[i].setMap(map);
+    }            
+}
+
+// 휠체어 리프트 배열에 추가된 마커들을 지도에 표시하거나 삭제하는 함수입니다 -- markerList2
+function setMarkers2(map) {
+    for (var i = 0; i < markerList2.length; i++) {
+        markerList2[i].setMap(map);
+    }            
+}
+
+/*
+// 저상버스 배열에 추가된 마커들을 지도에 표시하거나 삭제하는 함수입니다 -- markerList3
+function setMarkers3(map) {
+    for (var i = 0; i < markerList3.length; i++) {
+        markerList3[i].setMap(map);
+    }            
+}
+*/
+
+// 급속 충전기 정보 markerList, infowindowList에 저장
+for(var i in batteryData){
+    var target = batteryData[i];
+    var latlng = new naver.maps.LatLng(target.lat, target.lng);
+    var marker = new naver.maps.Marker({
+        map : map,
+        position : latlng,
+    });
+
+    var content = `<div class = 'infowindow_wrap'>
+        <div class = 'infowindow_title'>${target.title} </div>
+        <div class = 'infowindow_content'>${target.content} </div>
+        <div class = 'infowindow_distance'>${target.distance} </div>
+    </div>`
+
+    var infowindow = new naver.maps.InfoWindow({
+        content : content,
+        backgroundColor : "#00ff0000",
+        borderColor : "#00ff0000",
+        anchorSize : new naver.maps.Size(0, 0) // 꼬리표
+    });
+
+    markerList.push(marker);
+    infowindowList.push(infowindow);
+}
+
+// 휠체어 리프트 정보 markerList2, infowindowList2에 저장
+for(var i in liftData){
+    var target = liftData[i];
+    var latlng = new naver.maps.LatLng(target.lat, target.lng);
+    var marker = new naver.maps.Marker({
+        map : map,
+        position : latlng,
+    });
+
+    var content = `<div class = 'infowindow_wrap'>
+        <div class = 'infowindow_title'>${target.title} </div>
+        <div class = 'infowindow_content'>${target.content} </div>
+        <div class = 'infowindow_distance'>${target.distance} </div>
+    </div>`
+
+    var infowindow = new naver.maps.InfoWindow({
+        content : content,
+        backgroundColor : "#00ff0000",
+        borderColor : "#00ff0000",
+        anchorSize : new naver.maps.Size(0, 0) // 꼬리표
+    });
+
+    markerList2.push(marker);
+    infowindowList2.push(infowindow);
+}
+
+setMarkers2(null);
+
+/*
+// 저상버스 정보 markerList3, infowindowList3에 저장
+for(var i in busData){
+    var target = busData[i];
+    var latlng = new naver.maps.LatLng(target.lat, target.lng);
+    var marker = new naver.maps.Marker({
+        map : map,
+        position : latlng,
+    });
+
+    var content = `<div class = 'infowindow_wrap'>
+        <div class = 'infowindow_title'>${target.title} </div>
+        <div class = 'infowindow_content'>${target.content} </div>
+        <div class = 'infowindow_time'>${target.time} </div>
+    </div>`
+
+    var infowindow = new naver.maps.InfoWindow({
+        content : content,
+        backgroundColor : "#00ff0000",
+        borderColor : "#00ff0000",
+        anchorSize : new naver.maps.Size(0, 0) // 꼬리표
+    });
+
+    markerList3.push(marker);
+    infowindowList3.push(infowindow);
+}
+*/
+
+// setMarkers3(null);
+
+for(var i = 0, ii = markerList.length; i < ii; i++){
+    // 지도 여백 클릭 시 infobox 사라짐
+    naver.maps.Event.addListener(map, "click", ClickMap(i));
+    // 마커 클릭 시 infobox 생성
+    naver.maps.Event.addListener(markerList[i], "click", getClickHandler(i));
+}
+
+for(var i = 0, ii = markerList.length; i < ii; i++){
+    // 지도 여백 클릭 시 infobox 사라짐
+    naver.maps.Event.addListener(map, "click", ClickMap2(i));
+    // 마커 클릭 시 infobox 생성
+    naver.maps.Event.addListener(markerList2[i], "click", getClickHandler2(i));
+}
+
+/*
+for(var i = 0, ii = markerList.length; i < ii; i++){
+    // 지도 여백 클릭 시 infobox 사라짐
+    naver.maps.Event.addListener(map, "click", ClickMap3(i));
+    // 마커 클릭 시 infobox 생성
+    naver.maps.Event.addListener(markerList3[i], "click", getClickHandler3(i));
+}
+*/
+
+function ClickMap(i) {
+    return function() {
+        var infowindow = infowindowList[i];
+        infowindow.close();
+    }
+}
+
+function ClickMap2(i) {
+    return function() {
+        var infowindow = infowindowList2[i];
+        infowindow.close();
+    }
+}
+
+/*
+function ClickMap3(i) {
+    return function() {
+        var infowindow = infowindowList3[i];
+        infowindow.close();
+    }
+}
+*/
+
+function getClickHandler(i) {
+    return function() {
+        var marker = markerList[i]; 
+        var infowindow = infowindowList[i];
+        if(infowindow.getMap()) {   // 현재 지도에 info 정보가 나와있는지 확인 
+            infowindow.close();
+        } else {
+            infowindow.open(map, marker);
+        }
+    }
+}
+
+function getClickHandler2(i) {
+    return function() {
+        var marker = markerList2[i]; 
+        var infowindow = infowindowList2[i];
+        if(infowindow.getMap()) {   // 현재 지도에 info 정보가 나와있는지 확인 
+            infowindow.close();
+        } else {
+            infowindow.open(map, marker);
+        }
+    }
+}
+
+/*
+function getClickHandler3(i) {
+    return function() {
+        var marker = markerList3[i]; 
+        var infowindow = infowindowList3[i];
+        if(infowindow.getMap()) {   // 현재 지도에 info 정보가 나와있는지 확인 
+            infowindow.close();
+        } else {
+            infowindow.open(map, marker);
+        }
+    }
+}
+*/
+
+let currentUse = true; 
+
+$('#current').click(() => {
+    if("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            const lat = position.coords.latitude;
+            const lng = position.coords.longitude;
+            const latlng = new naver.maps.LatLng(lat, lng);
+            if(currentUse){
+                marker = new naver.maps.Marker({
+                    map : map,
+                    position : latlng,
+                    icon : {
+                        content: '<img class="pulse" draggable="false" unselectable="on" src="https://myfirstmap.s3.ap-northeast-2.amazonaws.com/circle.png" >',
+                        anchor: new naver.maps.Point(11, 11),
+                    }
+                });
+                currentUse = false;
+            }
+            map.setZoom(14, false);
+            map.panTo(latlng);
+        });
+    } else {
+        alert("위치정보 사용 불가능");
+    }
+});
+
+let ps = new kakao.maps.services.Places();
+let search_arr = [];
+
+$("#search_input").on("keydown", function(e){
+    if(e.keyCode === 13){
+        let content = $(this).val();
+        ps.keywordSearch(content, placeSearchCB);
+    }
+});
+
+$("#search_button").on("click", function(e){
+    let content = $("#search_input").val();
+    ps.keywordSearch(content, placeSearchCB);
+})
+
+function placeSearchCB(data, status, pagination){
+    if(status === kakao.maps.services.Status.OK) {
+        let target = data[0];
+        const lat = target.y;
+        const lng = target.x;
+        const latlng = new naver.maps.LatLng(lat, lng);
+        marker = new naver.maps.Marker({        // 문제 1 : 검색 마커 표시를 다르게 해야 하지 않을까? -> 바꿨음
+            map: map,
+            position: latlng,
+            icon: {
+                content: "<div class='marker'></div>"
+            }
+        })
+        if(search_arr.length == 0){
+            search_arr.push(marker);
+        } else {
+            search_arr.push(marker);
+            let pre_marker = search_arr.splice(0, 1);
+            pre_marker[0].setMap(null);
+        }
+        map.setZoom(14, false);
+        map.panTo(latlng);
+    } else {
+        alert("검색 결과가 없습니다.");
+    }
+}
+
+// 급속 충전기 선택 시 마커 변경
+$('#batteryCharger').click(() => {
+    setMarkers2(null);
+    //setMarkers3(null);
+    setMarkers(map);
+})
+
+// 휠체어 리프트 선택 시 마커 변경
+$('#wheelchairLift').click( () => {
+    setMarkers(null);
+    //setMarkers3(null);
+    setMarkers2(map);
+})
+
+/*
+// 저상버스 실시간 정보
+$('#bus').click( () => {
+  setMarkers(null);
+  setMarkers2(null);
+  setMarkers3(map);
+})
+*/
+
+// 자유게시판
+$('#board').lick(() => {
+
+})
+</script>
+</body>
+</html>
+

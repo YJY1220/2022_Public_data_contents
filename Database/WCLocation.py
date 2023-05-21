@@ -4,7 +4,6 @@ import StationXY
 
 insert_file = open('sql/WCLocation.sql', 'w', encoding='utf-8')
 
-apikey = 'doPQWaK3RF%2F2FlmWgDKlCKgwO2GOqQhA8wLBewPmouVYI5ezOEv0QZX3abbjFiHpWYaCZZ9mV9VJcgoPA5PJIQ%3D%3D'
 url = 'https://api.odcloud.kr/api/15041281/v1/uddi:7887b8fa-79a3-4b95-9eb0-8d55381d2f7a?page=1&perPage=20&serviceKey='\
       + config.WCLocation_api_key
 
